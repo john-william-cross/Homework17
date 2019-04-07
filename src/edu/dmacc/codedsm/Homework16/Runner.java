@@ -9,5 +9,8 @@ public class Runner {
         PhoneTaskAssigner phoneTaskAssigner = new PhoneTaskAssigner();
         PersonTaskAssigner personTaskAssigner = new PersonTaskAssigner();
 
+        TaskAssigner taskAssigner = new TaskAssigner();
+        System.out.println(emailTaskAssigner.assignTask("John", 1));
+
     }
 }
