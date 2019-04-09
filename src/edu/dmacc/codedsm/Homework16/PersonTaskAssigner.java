@@ -1,13 +1,16 @@
 package edu.dmacc.codedsm.Homework16;
 
-public class PersonTaskAssigner extends TaskAssigner {
-    @Override
-    public String assignTask(String User, Integer Priority) {
-        return super.assignTask(User, Priority);
-    }
+public class PersonTaskAssigner implements TaskAssigner {
 
     public PersonTaskAssigner() {
-        System.out.println("This is from PersonTaskAssigner");
+        System.out.println("This is from PersonTaskAssigner.");
+    }
+
+    @Override
+    public String userAndPriority(String user, int priority) {
+        return "Task user is: " + user + ". Task priority is: " + priority + ".";
     }
 
 }
+
+
