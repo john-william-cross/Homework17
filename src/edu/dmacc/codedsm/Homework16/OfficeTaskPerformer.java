@@ -8,4 +8,8 @@ public class OfficeTaskPerformer extends TaskPerformer {
         System.out.println("This is from OfficeTaskPerformer.");
     }
 
+    @Override
+    public void performTask(Task task, User user) {
+        super.performTask(task, user);
+    }
 }

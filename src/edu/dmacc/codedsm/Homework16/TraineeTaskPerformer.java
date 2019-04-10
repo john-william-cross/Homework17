@@ -8,5 +8,9 @@ public class TraineeTaskPerformer extends TaskPerformer {
         System.out.println("This is from TraineeTaskPerformer.");
     }
 
+    @Override
+    public void performTask(Task task, List<String> Users) {
+        super.performTask(task, Users);
+    }
 }
 

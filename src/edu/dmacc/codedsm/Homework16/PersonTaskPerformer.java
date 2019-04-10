@@ -8,4 +8,8 @@ public class PersonTaskPerformer extends TaskPerformer {
         System.out.println("This is from PersonTaskPerformer");
     }
 
+    @Override
+    public void performTask(Task task, User user) {
+        super.performTask(task, user);
+    }
 }
