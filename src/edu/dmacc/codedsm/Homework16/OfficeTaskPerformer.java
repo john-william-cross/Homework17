@@ -1,7 +1,5 @@
 package edu.dmacc.codedsm.Homework16;
 
-import java.util.List;
-
 public class OfficeTaskPerformer extends TaskPerformer {
 
     public OfficeTaskPerformer() {
@@ -12,4 +10,5 @@ public class OfficeTaskPerformer extends TaskPerformer {
     public void performTask(Task task, User user) {
         super.performTask(task, user);
     }
+
 }

@@ -1,7 +1,5 @@
 package edu.dmacc.codedsm.Homework16;
 
-import java.util.List;
-
 public class PersonTaskPerformer extends TaskPerformer {
 
     public PersonTaskPerformer() {
@@ -12,4 +10,5 @@ public class PersonTaskPerformer extends TaskPerformer {
     public void performTask(Task task, User user) {
         super.performTask(task, user);
     }
+
 }
