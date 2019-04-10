@@ -8,13 +8,14 @@ public class Runner {
 
         System.out.println("Starting runner...");
 
-        /*PersonTaskAssigner personTaskAssigner = new PersonTaskAssigner();
+        PersonTaskAssigner personTaskAssigner = new PersonTaskAssigner();
         EmailTaskAssigner emailTaskAssigner = new EmailTaskAssigner();
         PhoneTaskAssigner phoneTaskAssigner = new PhoneTaskAssigner();
 
         System.out.println(personTaskAssigner.userAndPriority("John", 1));
         System.out.println(emailTaskAssigner.userAndPriority("Katelin", 3));
-        System.out.println(personTaskAssigner.userAndPriority("Frankie", 2));*/
+        System.out.println(personTaskAssigner.userAndPriority("Frankie", 2));
+
 
         PersonTaskPerformer personTaskPerformer = new PersonTaskPerformer();
         OfficeTaskPerformer officeTaskPerformer = new OfficeTaskPerformer();
