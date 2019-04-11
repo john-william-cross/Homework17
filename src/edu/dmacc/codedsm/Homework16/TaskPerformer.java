@@ -7,7 +7,7 @@ public class TaskPerformer {
     public void performTask(Task task, User user) {
     }
 
-    public void performTask(Task task, List<String> Users) {
+    public void performTask(Task task, List<User> Users) {
     }
 
 }

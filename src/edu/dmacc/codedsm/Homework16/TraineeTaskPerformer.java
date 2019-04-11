@@ -9,7 +9,7 @@ public class TraineeTaskPerformer extends TaskPerformer {
     }
 
     @Override
-    public void performTask(Task task, List<String> Users) {
+    public void performTask(Task task, List<User> Users) {
         super.performTask(task, Users);
     }
 
